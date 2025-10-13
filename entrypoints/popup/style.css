@@ -1,0 +1,7 @@
+html,
+body,
+#app {
+  width: 380px;
+  /*height: 600px;*/
+  background-color: transparent;
+}

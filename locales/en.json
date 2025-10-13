@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "Free Copy",
+    "description": "Remove copy and selection restrictions"
+  },
+  "popup": {
+    "status": {
+      "label": "Extension Status",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "switchOn": "ON",
+      "switchOff": "OFF"
+    },
+    "info": {
+      "currentSite": "Current Site:",
+      "version": "Version:",
+      "unknown": "Unknown"
+    },
+    "features": {
+      "title": "Features",
+      "selectText": "Remove text selection restrictions",
+      "copyPaste": "Enable copy & paste",
+      "contextMenu": "Restore context menu",
+      "smartMonitor": "Smart monitoring"
+    },
+    "modules": {
+      "title": "Modules",
+      "copyUnlock": {
+        "name": "Copy Unlock",
+        "desc": "Remove text selection and copy restrictions"
+      },
+      "linkRedirect": {
+        "name": "Link Redirect",
+        "desc": "Skip redirect pages and go directly to target links"
+      },
+      "autoExpand": {
+        "name": "Auto Expand",
+        "desc": "Automatically click 'Read More' buttons"
+      },
+      "watermarkRemoval": {
+        "name": "Watermark Removal",
+        "desc": "Hide common page watermark elements"
+      }
+    },
+    "actions": {
+      "refresh": "Refresh page to apply changes"
+    },
+    "footer": {
+      "support": "Supports CSDN, Jianshu, Zhihu and more"
+    },
+    "openOptions": "Open Settings"
+  },
+  "badge": {
+    "unlocked": "Text copy unlocked",
+    "clickToShow": "Click to show status"
+  },
+  "whitelist": {
+    "title": "Whitelist",
+    "currentSite": "Current Site",
+    "add": "Add to whitelist",
+    "remove": "Remove from whitelist",
+    "empty": "Whitelist is empty, all sites are enabled",
+    "active": "Whitelist active",
+    "notInList": "Not in whitelist",
+    "globalDisabled": "Global toggle disabled",
+    "hint": "Features run only on sites in the whitelist"
+  },
+  "messages": {
+    "readSettingsFailed": "Failed to read settings",
+    "saveSettingsFailed": "Failed to save settings",
+    "unlocking": "Removing text selection restrictions...",
+    "unlocked": "✓ Text selection and copy enabled",
+    "cleaning": "Cleaning up...",
+    "cleaned": "Cleanup complete",
+    "blockingListener": "Blocked restrictive event listener"
+  },
+  "options": {
+    "title": "Settings",
+    "subtitle": "Manage extension settings and whitelist",
+    "global": {
+      "title": "Global Settings",
+      "enableExtension": "Enable Extension",
+      "enableExtensionDesc": "Global toggle to control whether the extension works on all websites"
+    },
+    "whitelist": {
+      "title": "Whitelist Management",
+      "hint": "Enable copy unlock only on websites in the whitelist",
+      "emptyHint": "Whitelist is empty, the extension will work on all websites",
+      "domainPlaceholder": "Enter domain, e.g.: example.com",
+      "add": "Add",
+      "remove": "Remove",
+      "import": "Import",
+      "export": "Export",
+      "clear": "Clear",
+      "resetToDefault": "Reset to Default",
+      "noItems": "Whitelist is empty",
+      "loadDefaults": "Load Default Whitelist",
+      "emptyDomain": "Please enter a domain",
+      "invalidDomain": "Invalid domain format",
+      "alreadyExists": "Domain already exists",
+      "saveSuccess": "Saved successfully",
+      "removeConfirm": "Are you sure you want to remove this domain?",
+      "clearConfirmTitle": "Clear Whitelist",
+      "clearConfirmContent": "Are you sure you want to clear all whitelist items? This will make the extension work on all websites.",
+      "clearSuccess": "Whitelist cleared",
+      "resetConfirmTitle": "Reset to Default Whitelist",
+      "resetConfirmContent": "Are you sure you want to reset to the default whitelist? This will overwrite your current whitelist settings.",
+      "resetSuccess": "Reset to default whitelist",
+      "importSuccess": "Imported successfully",
+      "importFailed": "Import failed",
+      "invalidFormat": "Invalid file format",
+      "exportSuccess": "Exported successfully",
+      "totalCount": "Total"
+    },
+    "defaultWhitelist": {
+      "title": "Default Whitelist",
+      "description": "Below is a preset list of common websites that need copy unlock functionality. You can choose to restore to default settings.",
+      "viewList": "View Default List"
+    },
+    "common": {
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "messages": {
+      "settingsSaved": "Settings saved"
+    }
+  }
+}
+

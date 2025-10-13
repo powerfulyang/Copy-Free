@@ -1,0 +1,129 @@
+{
+  "app": {
+    "name": "解锁复制",
+    "description": "解除复制和选择限制"
+  },
+  "popup": {
+    "status": {
+      "label": "扩展状态",
+      "enabled": "已启用",
+      "disabled": "已禁用",
+      "switchOn": "ON",
+      "switchOff": "OFF"
+    },
+    "info": {
+      "currentSite": "当前网站：",
+      "version": "版本号：",
+      "unknown": "未知"
+    },
+    "features": {
+      "title": "功能特性",
+      "selectText": "解除文本选择限制",
+      "copyPaste": "启用复制粘贴功能",
+      "contextMenu": "恢复右键菜单",
+      "smartMonitor": "智能持续监控"
+    },
+    "modules": {
+      "title": "功能模块",
+      "copyUnlock": {
+        "name": "文本复制解锁",
+        "desc": "移除网站文本选择和复制限制"
+      },
+      "linkRedirect": {
+        "name": "外链跳转直达",
+        "desc": "跳过中转页面，直达目标链接"
+      },
+      "autoExpand": {
+        "name": "自动展开全文",
+        "desc": "自动点击阅读全文按钮"
+      },
+      "watermarkRemoval": {
+        "name": "移除页面水印",
+        "desc": "隐藏常见的页面水印元素"
+      }
+    },
+    "actions": {
+      "refresh": "刷新页面应用更改"
+    },
+    "footer": {
+      "support": "支持 CSDN、简书、知乎等网站"
+    },
+    "openOptions": "打开设置页面"
+  },
+  "badge": {
+    "unlocked": "文本复制已解锁",
+    "clickToShow": "点击显示状态"
+  },
+  "whitelist": {
+    "title": "白名单",
+    "currentSite": "当前站点",
+    "add": "加入白名单",
+    "remove": "移出白名单",
+    "empty": "白名单为空，所有站点默认启用",
+    "active": "白名单生效",
+    "notInList": "不在白名单中",
+    "globalDisabled": "全局已禁用",
+    "hint": "仅在白名单中的站点启用功能"
+  },
+  "messages": {
+    "readSettingsFailed": "读取设置失败",
+    "saveSettingsFailed": "保存设置失败",
+    "unlocking": "正在移除文本选择限制...",
+    "unlocked": "✓ 文本选择和复制功能已启用",
+    "cleaning": "正在清理...",
+    "cleaned": "已清理完成",
+    "blockingListener": "已阻止添加限制性事件监听器"
+  },
+  "options": {
+    "title": "设置",
+    "subtitle": "管理扩展设置和白名单",
+    "global": {
+      "title": "全局设置",
+      "enableExtension": "启用扩展",
+      "enableExtensionDesc": "全局开关，控制扩展是否在所有网站上生效"
+    },
+    "whitelist": {
+      "title": "白名单管理",
+      "hint": "仅在白名单中的网站上启用解锁复制功能",
+      "emptyHint": "白名单为空，扩展将在所有网站上生效",
+      "domainPlaceholder": "输入域名，例如：example.com",
+      "add": "添加",
+      "remove": "移除",
+      "import": "导入",
+      "export": "导出",
+      "clear": "清空",
+      "resetToDefault": "恢复默认",
+      "noItems": "白名单为空",
+      "loadDefaults": "加载默认白名单",
+      "emptyDomain": "请输入域名",
+      "invalidDomain": "域名格式不正确",
+      "alreadyExists": "该域名已存在",
+      "saveSuccess": "保存成功",
+      "removeConfirm": "确定要移除该域名吗？",
+      "clearConfirmTitle": "清空白名单",
+      "clearConfirmContent": "确定要清空所有白名单吗？这将使扩展在所有网站上生效。",
+      "clearSuccess": "白名单已清空",
+      "resetConfirmTitle": "恢复默认白名单",
+      "resetConfirmContent": "确定要恢复为默认白名单吗？这将覆盖当前的白名单设置。",
+      "resetSuccess": "已恢复为默认白名单",
+      "importSuccess": "导入成功",
+      "importFailed": "导入失败",
+      "invalidFormat": "文件格式不正确",
+      "exportSuccess": "导出成功",
+      "totalCount": "总计"
+    },
+    "defaultWhitelist": {
+      "title": "默认白名单",
+      "description": "以下是预设的常见需要解锁复制功能的网站列表，您可以选择恢复为默认设置。",
+      "viewList": "查看默认列表"
+    },
+    "common": {
+      "confirm": "确定",
+      "cancel": "取消"
+    },
+    "messages": {
+      "settingsSaved": "设置已保存"
+    }
+  }
+}
+
